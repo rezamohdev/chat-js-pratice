@@ -80,5 +80,5 @@ messageList.forEach((item) => {
 
     const cardElement = card.generateCard();
 
-    document.body.append(cardElement);
+    document.querySelector('.main').append(cardElement);
 });
